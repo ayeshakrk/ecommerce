@@ -23,6 +23,7 @@
 
         <!-- Favicon Icon -->
         <link rel="icon"  type="image/png" href="{{asset('frontend/images/favicon.png')}}">
+        @stack('style')
         <!-- Favicon Icon -->
     </head>
     <body>
@@ -253,5 +254,6 @@
         <!-- Rev slider Add on End -->
 
         <script src="{{asset('frontend/js/theme.js')}}"></script>
+        @stack('script')
     </body>
 </html>
