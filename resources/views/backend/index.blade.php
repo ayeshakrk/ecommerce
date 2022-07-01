@@ -1,9 +1,6 @@
 @extends('layouts.backend.back')
 @section('content')
  <!-- Content Header (Page header) -->
-
-  <!-- /.content-header -->
-
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
